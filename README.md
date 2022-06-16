@@ -21,18 +21,22 @@
 ## Results
 
 ### Key Differences by City Type
+
 The table below details the key differences between city types.
 Moving from rural to suburban to urban, we can see that the total number of rides taken, as well as the total number of available drivers and total fare collected, increases.
 Following the same city type progession, we also see the average fare per ride and per driver decline.
 It's note worthy that in urban areas, drivers averaged less than one ride over the time period (1625 rides/2405 drivers), while in suburban and  rural areas, the average was over 1 (625 rides/490 drivers and 125 rides/78 drivers respectively).
+
 ![Ride Share details](Images/Summary_Data.png)
 
 It's also instructive to review ratios of the above data, to get a sense of the scale of differences. In the table below we can see:
 - for Urban/Rural: 30x drivers produce 10x fares
 - for Urban/Suburban: 4.9x drivers produce 2x fares 
+
 ![Ride share detail ratios](Images/Summary_Data_ratios.png)
 
 ### Total Fares by City Type Through Time
+
 Finally, looking at fares by city type through time we can see revenue has trended upwards slightly, though urban and rural revenues pulled back towards the end of the analysis period, while suburban revenue saw an uptick.
 
 ![Fares by city type through time](analysis/Pyber_fare_summary.png)
